@@ -1,0 +1,45 @@
+body{
+    background-color: cornflowerblue;
+}
+
+h1{
+    font-size: 68px;
+    color: orange;
+    text-align: center; 
+}
+
+#submit{
+    background-color: coral;
+    width: 100px;
+    height: auto;;
+}
+
+#submit:hover{
+    background-color: yellow;
+}
+
+li{
+    text-decoration: none;
+}
+
+label{
+    text-align: center;
+    font-size: 44px;
+    color: black;
+}
+
+.input[type=text] {
+    font-size: 44px;
+    width: 100%;
+    padding: 12px 20px;
+     margin: 8px 0;
+    box-sizing: border-box;
+}
+
+
+#genie{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <title>Input  App</title>
+</head>
+<body>
+    
+    <form id="addWish">
+        <h1>Wish It!</h1>
+        <img id="genie" src="./Images/genie.PNG">
+        <fieldset>
+          <legend>Add Wish </legend>
+              <label for="wishList">Wish List</label>
+              <input type="text" id="wishList" name="wishList" placeholder="Make a wish!" required />
+              <input type="reset" id="reset" onClick="window.location.reload()" value="Reset form">
+
+          <button id="submit">Add</button>
+        </fieldset>
+      </form>
+
+        <ul id="list"></ul>
+
+        <script src="./JS/main.js"></script>
+
+</body>
+</html>
